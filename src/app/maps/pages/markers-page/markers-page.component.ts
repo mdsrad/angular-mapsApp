@@ -85,7 +85,7 @@ export class MarkersPageComponent {
       });
 
       localStorage.setItem('plainMarkers', JSON.stringify( plainMarkers ));
-      console.log( plainMarkers );
+      //console.log( plainMarkers );
    }
 
    readFromLocalStorage(){
